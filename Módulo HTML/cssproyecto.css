@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    width: 800px;
+    justify-content: space-between;
+
+
+}
+.navbar{
+    display: flex;
+    width: 800px;
+
+}
+li a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.fotoBody{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+#perros{
+    width: 500px;
+    box-sizing: border-box;
+}
+
+#gatos{
+    width: 500px;
+}
